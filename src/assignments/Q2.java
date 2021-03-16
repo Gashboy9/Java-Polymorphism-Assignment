@@ -5,15 +5,14 @@ public class Q2 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Monster m;
-		m= new FireMonster();
-		System.out.println(m.attack());
+		Monster m1 = new FireMonster();
+		System.out.println(m1.attack());
 		
-		m = new WaterMonster();
-		System.out.println(m.attack());
+		Monster m2 = new WaterMonster();
+		System.out.println(m2.attack());
 		
-		m = new StoneMonster();
-		System.out.println(m.attack());
+		Monster m3 = new StoneMonster();
+		System.out.println(m3.attack());
 
 	}
 
